@@ -78,7 +78,5 @@ clusters = partition_into_clusters(sorted_data_points, k)
 # Step 7: Take middle point in each set as initial centroids
 initial_centroids = take_middle_as_centroids(clusters)
 
-# Continue with the rest of the steps...
 
-# For illustration, printing the initial centroids
 print("Initial Centroids:", initial_centroids)
